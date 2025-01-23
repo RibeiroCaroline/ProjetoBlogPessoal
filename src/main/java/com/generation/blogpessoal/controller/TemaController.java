@@ -43,14 +43,17 @@ public class TemaController {
 				.orElse(ResponseEntity.status(HttpStatus.NOT_FOUND).build());
 	}
 
+
 	@GetMapping("/descricao/{descricao}")
 	public ResponseEntity<List<Tema>> getByTitle(@PathVariable String descricao) {
-		return ResponseEntity.ok(temaRepository.findAllByDescricaoContainingIgnoreCase(descricao));
+		return ResponseEntity.ok(temaRepository
+				.findAllByDescricaoContainingIgnoreCase(descricao));
 	}
 
 	@PostMapping
 	public ResponseEntity<Tema> post(@Valid @RequestBody Tema tema) {
-		return ResponseEntity.status(HttpStatus.CREATED).body(temaRepository.save(tema));
+		return ResponseEntity.status(HttpStatus.CREATED)
+				.body(temaRepository.save(tema));
 	}
 
 	@PutMapping
@@ -70,5 +73,6 @@ public class TemaController {
 
 		temaRepository.deleteById(id);
 	}
+	
 
 }
