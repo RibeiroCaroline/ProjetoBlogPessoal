@@ -63,8 +63,13 @@ cd ProjetoBlogPessoal
 # Compile e rode o projeto
 mvn spring-boot:run
 ```
+## 💻 Acesso
+
 Acesse o sistema no navegador:  
-👉 [http://localhost:8080](http://localhost:8080)
+👉 [http://localhost:8080](http://localhost:8080) (modo local)  
+🌐 Ou acesse a versão em produção:  
+👉 [https://projetoblogpessoal-i0bf.onrender.com/swagger-ui/index.html](https://projetoblogpessoal-i0bf.onrender.com/swagger-ui/index.html)
+
 
 ---
 
