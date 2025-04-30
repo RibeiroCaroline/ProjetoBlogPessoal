@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-blue" alt="Status do Projeto" />
+  <img src="https://img.shields.io/badge/status-finalizado-blue" alt="Status do Projeto" />
   <img src="https://img.shields.io/badge/Spring%20Boot-3.3.7-brightgreen" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/Java-17-orange" alt="Java 17" />
 </p>
