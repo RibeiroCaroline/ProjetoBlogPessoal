@@ -71,5 +71,17 @@ public class UsuarioController {
 				.orElse(ResponseEntity.status(HttpStatus.NOT_FOUND).build());
 
 	}
+	
+	//Para o Cron-Job mandar requisições 
+	@RestController
+	@RequestMapping("/ping")
+	public class PingController {
+
+	    @GetMapping
+	    public ResponseEntity<String> ping() {
+	        return ResponseEntity.ok("pong");
+	    }
+	}
+
 
 }
