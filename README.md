@@ -37,6 +37,7 @@
 ✔️ Cadastro e login de usuários com autenticação JWT  
 ✔️ Criação, edição e exclusão de postagens  
 ✔️ Criação, edição e exclusão de temas
+
 ✔️ Associação de postagens a temas  
 ✔️ Validação de permissões para ações específicas  
 
